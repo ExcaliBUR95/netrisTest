@@ -49,7 +49,7 @@ const VideoPlayer: React.FC<VideoPlayerProps> = ({ events }) => {
   return (
     <div className={styles.videoPlayerContainer}>
       <video
-        src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+        src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
         onClick={handleVideoClick}
         ref={videoRef}
         onTimeUpdate={handleTimeUpdate}
