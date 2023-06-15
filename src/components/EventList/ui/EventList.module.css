@@ -1,0 +1,12 @@
+.eventListContainer {
+  display: flex;
+  overflow-x: auto;
+
+}
+
+.eventItem {
+  flex-shrink: 0;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
