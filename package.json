@@ -2,6 +2,7 @@
   "name": "call-listing",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://excalibur95.github.io/netrisTest/",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
     "@testing-library/jest-dom": "^5.16.5",
@@ -21,7 +22,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build",
+    "prodeploy": "npm run build"
   },
   "eslintConfig": {
     "extends": [
@@ -57,6 +60,7 @@
     "@types/jest": "^27.4.0",
     "@types/react": "^17.0.38",
     "babel-jest": "^27.4.5",
+    "gh-pages": "^5.0.0",
     "jest": "^27.4.5",
     "jest-watch-typeahead": "^2.2.2",
     "redux-mock-store": "^1.5.4",

@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/netrisTest/static/css/main.bead9733.css",
+    "main.js": "/netrisTest/static/js/main.b1c62de7.js",
+    "index.html": "/netrisTest/index.html",
+    "main.bead9733.css.map": "/netrisTest/static/css/main.bead9733.css.map",
+    "main.b1c62de7.js.map": "/netrisTest/static/js/main.b1c62de7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bead9733.css",
+    "static/js/main.b1c62de7.js"
+  ]
+}

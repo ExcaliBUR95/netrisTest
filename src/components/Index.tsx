@@ -12,7 +12,7 @@ const Index: React.FC = () => {
   useEffect(() => {
     const fetchEvents = async () => {
       try {
-        const response = await fetch('http://www.mocky.io/v2/5e60c5f53300005fcc97bbdd');
+        const response = await fetch('https://www.mocky.io/v2/5e60c5f53300005fcc97bbdd');
         const data = await response.json();
         dispatch(setEvents(data));
       } catch (error) {
